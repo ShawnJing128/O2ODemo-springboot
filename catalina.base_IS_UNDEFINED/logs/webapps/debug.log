@@ -1,0 +1,4 @@
+2019-10-19 13:52:28.140 [main] DEBUG com.imooc.o2o.dao.AreaDaoTest - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-10-19 13:52:33.852 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2019-10-19 13:52:33.891 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2019-10-19 13:52:33.947 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2

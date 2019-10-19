@@ -1,0 +1,3 @@
+2019-10-19 13:52:28.139 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on ShawndeMacBook-Pro.local with PID 5062 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-19 13:52:28.141 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
+2019-10-19 13:52:32.940 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Started AreaDaoTest in 5.289 seconds (JVM running for 6.632)
