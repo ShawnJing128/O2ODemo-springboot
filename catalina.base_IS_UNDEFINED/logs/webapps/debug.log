@@ -1,4 +1,14 @@
-2019-10-19 13:52:28.140 [main] DEBUG com.imooc.o2o.dao.AreaDaoTest - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
-2019-10-19 13:52:33.852 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
-2019-10-19 13:52:33.891 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
-2019-10-19 13:52:33.947 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2
+2019-10-21 14:05:24.077 [main] DEBUG com.imooc.o2o.service.WechatAuthServiceTest - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-10-21 14:05:29.178 [main] DEBUG com.imooc.o2o.dao.PersonInfoDao.insertPersonInfo - ==>  Preparing: INSERT INTO tb_person_info(name,gender,email,profile_img,user_type, create_time,last_edit_time,enable_status) VALUES (?,?,?,?, ?,?,?,?) 
+2019-10-21 14:05:29.216 [main] DEBUG com.imooc.o2o.dao.PersonInfoDao.insertPersonInfo - ==> Parameters: 测试一下(String), null, null, null, 1(Integer), 2019-10-21 14:05:29.153(Timestamp), null, 1(Integer)
+2019-10-21 14:05:29.239 [main] DEBUG com.imooc.o2o.dao.PersonInfoDao.insertPersonInfo - <==    Updates: 1
+2019-10-21 14:05:29.248 [main] DEBUG com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth - ==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2019-10-21 14:05:29.252 [main] DEBUG com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth - ==> Parameters: 12(Long), dafahizhfdhaih(String), 2019-10-21 14:05:29.153(Timestamp)
+2019-10-21 14:05:29.259 [main] DEBUG com.imooc.o2o.dao.WechatAuthDao.insertWechatAuth - <==    Updates: 1
+2019-10-21 14:05:29.268 [main] DEBUG c.i.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2019-10-21 14:05:29.269 [main] DEBUG c.i.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - ==> Parameters: dafahizhfdhaih(String)
+2019-10-21 14:05:29.286 [main] DEBUG c.i.o2o.dao.WechatAuthDao.queryWechatInfoByOpenId - <==      Total: 1
+2019-10-21 14:06:13.989 [main] DEBUG com.imooc.o2o.service.AreaServiceTest - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2019-10-21 14:06:21.127 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==>  Preparing: SELECT area_id,area_name,priority,create_time,last_edit_time FROM tb_area ORDER BY priority DESC 
+2019-10-21 14:06:21.282 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - ==> Parameters: 
+2019-10-21 14:06:21.420 [main] DEBUG com.imooc.o2o.dao.AreaDao.queryArea - <==      Total: 2

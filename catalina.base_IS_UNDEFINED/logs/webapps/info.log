@@ -1,3 +1,6 @@
-2019-10-19 13:52:28.139 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Starting AreaDaoTest on ShawndeMacBook-Pro.local with PID 5062 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-19 13:52:28.141 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - No active profile set, falling back to default profiles: default
-2019-10-19 13:52:32.940 [main] INFO  com.imooc.o2o.dao.AreaDaoTest - Started AreaDaoTest in 5.289 seconds (JVM running for 6.632)
+2019-10-21 14:05:24.070 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Starting WechatAuthServiceTest on ShawndeMacBook-Pro.local with PID 6581 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-21 14:05:24.079 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - No active profile set, falling back to default profiles: default
+2019-10-21 14:05:28.398 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Started WechatAuthServiceTest in 4.98 seconds (JVM running for 6.416)
+2019-10-21 14:06:13.988 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Starting AreaServiceTest on ShawndeMacBook-Pro.local with PID 6585 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-21 14:06:13.991 [main] INFO  com.imooc.o2o.service.AreaServiceTest - No active profile set, falling back to default profiles: default
+2019-10-21 14:06:19.072 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Started AreaServiceTest in 5.548 seconds (JVM running for 6.775)
