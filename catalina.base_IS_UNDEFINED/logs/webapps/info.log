@@ -1,33 +1,42 @@
-2019-10-21 14:05:24.070 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Starting WechatAuthServiceTest on ShawndeMacBook-Pro.local with PID 6581 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:05:24.079 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - No active profile set, falling back to default profiles: default
-2019-10-21 14:05:28.398 [main] INFO  com.imooc.o2o.service.WechatAuthServiceTest - Started WechatAuthServiceTest in 4.98 seconds (JVM running for 6.416)
-2019-10-21 14:06:13.988 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Starting AreaServiceTest on ShawndeMacBook-Pro.local with PID 6585 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:06:13.991 [main] INFO  com.imooc.o2o.service.AreaServiceTest - No active profile set, falling back to default profiles: default
-2019-10-21 14:06:19.072 [main] INFO  com.imooc.o2o.service.AreaServiceTest - Started AreaServiceTest in 5.548 seconds (JVM running for 6.775)
-2019-10-21 14:22:02.036 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6637 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:22:02.048 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:23:13.099 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6638 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:23:13.103 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:26:13.001 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6647 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:26:13.008 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:26:17.986 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.549 seconds (JVM running for 6.15)
-2019-10-21 14:40:12.877 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6798 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:40:12.881 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:40:19.379 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 6.87 seconds (JVM running for 7.511)
-2019-10-21 14:42:23.132 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6814 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:42:23.135 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:42:28.071 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.517 seconds (JVM running for 6.135)
-2019-10-21 14:46:17.083 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6829 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:46:17.086 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 14:46:21.445 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.871 seconds (JVM running for 5.465)
-2019-10-21 14:49:25.939 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6843 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 14:49:25.943 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 15:06:57.135 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6894 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 15:06:57.139 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 15:07:01.714 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.209 seconds (JVM running for 6.279)
-2019-10-21 15:28:35.036 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6956 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 15:28:35.039 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 15:28:39.597 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.123 seconds (JVM running for 5.853)
-2019-10-21 15:37:59.160 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 6978 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-21 15:37:59.163 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-21 15:38:04.501 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.751 seconds (JVM running for 6.503)
+2019-10-22 13:04:03.699 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on ShawndeMacBook-Pro.local with PID 8494 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 13:04:03.705 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 13:04:08.016 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 4.847 seconds (JVM running for 6.04)
+2019-10-22 13:04:54.487 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on ShawndeMacBook-Pro.local with PID 8498 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 13:04:54.488 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 13:04:59.105 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 5.086 seconds (JVM running for 6.228)
+2019-10-22 13:10:28.906 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on ShawndeMacBook-Pro.local with PID 8553 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 13:10:28.908 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 13:10:33.540 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 5.114 seconds (JVM running for 6.179)
+2019-10-22 13:13:34.726 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on ShawndeMacBook-Pro.local with PID 8558 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 13:13:34.739 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 13:13:39.216 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 5.031 seconds (JVM running for 5.997)
+2019-10-22 13:21:13.249 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Starting ProductSellDailyDaoTest on ShawndeMacBook-Pro.local with PID 8564 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 13:21:13.255 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 13:21:17.811 [main] INFO  com.imooc.o2o.dao.ProductSellDailyDaoTest - Started ProductSellDailyDaoTest in 5.211 seconds (JVM running for 6.457)
+2019-10-22 14:02:52.042 [main] INFO  com.imooc.o2o.dao.UserShopMapDaoTest - Starting UserShopMapDaoTest on ShawndeMacBook-Pro.local with PID 8626 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:02:52.044 [main] INFO  com.imooc.o2o.dao.UserShopMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:02:57.021 [main] INFO  com.imooc.o2o.dao.UserShopMapDaoTest - Started UserShopMapDaoTest in 5.436 seconds (JVM running for 6.485)
+2019-10-22 14:33:32.198 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8714 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:33:32.200 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:33:36.343 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 4.707 seconds (JVM running for 5.715)
+2019-10-22 14:35:20.536 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8719 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:35:20.556 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:35:24.977 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 4.804 seconds (JVM running for 6.065)
+2019-10-22 14:36:50.197 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8720 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:36:50.206 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:36:55.132 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 5.646 seconds (JVM running for 6.961)
+2019-10-22 14:37:25.722 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8721 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:37:25.724 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:37:30.129 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 4.88 seconds (JVM running for 5.929)
+2019-10-22 14:38:22.426 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8722 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:38:22.429 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:38:27.362 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 5.292 seconds (JVM running for 6.658)
+2019-10-22 14:39:26.269 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8725 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:39:26.270 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:39:31.739 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 5.952 seconds (JVM running for 7.275)
+2019-10-22 14:39:56.412 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8726 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:39:56.450 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:40:01.726 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 5.886 seconds (JVM running for 7.161)
+2019-10-22 14:40:21.354 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Starting ShopAuthMapDaoTest on ShawndeMacBook-Pro.local with PID 8727 (started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-22 14:40:21.355 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - No active profile set, falling back to default profiles: default
+2019-10-22 14:40:25.398 [main] INFO  com.imooc.o2o.dao.ShopAuthMapDaoTest - Started ShopAuthMapDaoTest in 4.387 seconds (JVM running for 5.404)
