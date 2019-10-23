@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import com.google.code.kaptcha.servlet.KaptchaServlet;
@@ -34,7 +34,7 @@ import com.imooc.o2o.interceptor.shopadmin.ShopPermissionInterceptor;
 @Configuration
 // 等价于<mvc:annotation-driven/>
 @EnableWebMvc
-public class MvcConfiguration extends WebMvcConfigurerAdapter implements ApplicationContextAware {
+public class MvcConfiguration implements ApplicationContextAware,WebMvcConfigurer {
 	// Spring容器
 	private ApplicationContext applicationContext;
 
@@ -127,8 +127,8 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 	 * 由于web.xml不生效了，需要在这里配置Kaptcha验证码Servlet
 	 */
 	@Bean
-	public ServletRegistrationBean servletRegistrationBean() throws ServletException {
-		ServletRegistrationBean servlet = new ServletRegistrationBean(new KaptchaServlet(), "/Kaptcha");
+	public ServletRegistrationBean<KaptchaServlet> servletRegistrationBean() throws ServletException {
+		ServletRegistrationBean<KaptchaServlet> servlet = new ServletRegistrationBean<KaptchaServlet>(new KaptchaServlet(), "/Kaptcha");
 		servlet.addInitParameter("kaptcha.border", border);// 无边框
 		servlet.addInitParameter("kaptcha.textproducer.font.color", fcolor); // 字体颜色
 		servlet.addInitParameter("kaptcha.image.width", width);// 图片宽度
@@ -152,7 +152,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter implements Applica
 		InterceptorRegistration loginIR = registry.addInterceptor(new ShopLoginInterceptor());
 		// 配置拦截的路径
 		loginIR.addPathPatterns(interceptPath);
-		/** shopauthmanagement page **/
+		/** shopauthmanagement page 扫码时不用拦截 **/
 		loginIR.excludePathPatterns("/shopadmin/addshopauthmap");
 		/** scan **/
 		loginIR.excludePathPatterns("/shopadmin/adduserproductmap");
