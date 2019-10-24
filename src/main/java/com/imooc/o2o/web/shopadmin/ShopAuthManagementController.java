@@ -252,8 +252,7 @@ public class ShopAuthManagementController {
 
 			// 去重校验
 			// 获取该店铺下所有的授权信息
-			ShopAuthMapExecution allMapList = shopAuthMapService.listShopAuthMapByShopId(wechatInfo.getShopId(), 1,
-					999);
+			ShopAuthMapExecution allMapList = shopAuthMapService.listShopAuthMapByShopId(wechatInfo.getShopId(), 1, 999);
 			List<ShopAuthMap> shopAuthList = allMapList.getShopAuthMapList();
 			for (ShopAuthMap sm : shopAuthList) {
 				if (sm.getEmployee().getUserId() == user.getUserId())

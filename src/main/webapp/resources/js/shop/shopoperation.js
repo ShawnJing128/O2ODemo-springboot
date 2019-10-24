@@ -33,7 +33,7 @@ $(function() {
 						+ item.areaName + '</option>';
 			});
 				$('#shop-category').html(shopCategory);
-				$('#shop-category').attr('disable', 'disable');// 店铺类别不能修改
+				$('#shop-category').attr('disabled', 'disabled');// 店铺类别不能修改
 				$('#area').html(tempAreaHtml);
 				// 给店铺选定原先的所属的区域
 				$("#area option[data-id='" + shop.area.areaId + "']").attr(
@@ -106,8 +106,12 @@ $(function() {
 			success : function(data) {
 				if (data.success) {
 					$.toast('提交成功');
+					if (!isEdit) {
+						// 若为注册操作，成功后返回店铺列表页
+						window.location.href = "/o2oDemo/shopadmin/shoplist";
+					}
 				} else {
-					$.toast('提交失败' + data.errMsg);
+					$.alert('提交失败' + data.errMsg);
 				}
 				$('#captcha_img').click();
 			}

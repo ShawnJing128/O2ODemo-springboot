@@ -209,7 +209,7 @@ public class ShopManagementController {
 	
 	@RequestMapping(value="/registershop",method=RequestMethod.POST)
 	@ResponseBody
-	private Map<String,Object> registerShop(HttpServletRequest request){
+	private Map<String,Object> registerShop(HttpServletRequest request) throws IOException{
 		Map<String,Object> modelMap = new HashMap<String,Object>();
 		//将验证码工具引入
 		if(!CodeUtil.checkVerifyCode(request)) {
@@ -258,7 +258,7 @@ public class ShopManagementController {
 			PersonInfo owner = (PersonInfo) request.getSession().getAttribute("user");
 			shop.setOwner(owner);
 			ShopExecution se;
-			try {
+			
 				ImageHolder imageHolder = new ImageHolder(shopImg.getOriginalFilename(),shopImg.getInputStream());
 				se = shopService.addShop(shop,imageHolder);
 				if(se.getState() == ShopStateEnum.CHECK.getState()) {
@@ -275,13 +275,7 @@ public class ShopManagementController {
 					modelMap.put("success", false);
 					modelMap.put("errMsg", se.getStateInfo());
 				}
-			} catch (ShopOperationException e) {
-				modelMap.put("success", false);
-				modelMap.put("error", e.getMessage());
-			} catch (IOException e) {
-				modelMap.put("success", false);
-				modelMap.put("error", e.getMessage());
-			}
+			
 			return modelMap;
 		}else {
 			modelMap.put("success", false);

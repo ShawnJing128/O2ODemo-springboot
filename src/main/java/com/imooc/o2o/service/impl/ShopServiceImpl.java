@@ -1,23 +1,27 @@
 package com.imooc.o2o.service.impl;
 
-import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.imooc.o2o.dao.ShopAuthMapDao;
 import com.imooc.o2o.dao.ShopDao;
 import com.imooc.o2o.dto.ImageHolder;
 import com.imooc.o2o.dto.ShopExecution;
 import com.imooc.o2o.entity.Shop;
+import com.imooc.o2o.entity.ShopAuthMap;
 import com.imooc.o2o.enums.ShopStateEnum;
 import com.imooc.o2o.exceptions.ShopOperationException;
 import com.imooc.o2o.service.ShopService;
 import com.imooc.o2o.util.ImageUtil;
 import com.imooc.o2o.util.PageCalculator;
 import com.imooc.o2o.util.PathUtil;
+import com.imooc.o2o.web.handler.GlobalExceptionHandler;
 
 @Service
 public class ShopServiceImpl implements ShopService {
@@ -28,7 +32,9 @@ public class ShopServiceImpl implements ShopService {
 	 */
 	@Autowired
 	private ShopDao shopDao;
-
+	@Autowired
+	private ShopAuthMapDao shopAuthMapDao;
+	private final static Logger LOG = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 	@Override
 	@Transactional
 	public ShopExecution addShop(Shop shop, ImageHolder thumbnail) {
@@ -46,6 +52,7 @@ public class ShopServiceImpl implements ShopService {
 			if (effectedNum <= 0) {
 				// 抛出异常，终止事务执行
 				// 这里是RuntimeException而不是Exception的原因：只有RuntimeException 事务才能终止
+				LOG.error("插入店铺信息的时候，返回了0条变更");
 				throw new ShopOperationException("店铺创建失败");
 			} else {
 				// 添加成功后，先判断传入的图片是不是为空
@@ -54,20 +61,41 @@ public class ShopServiceImpl implements ShopService {
 					try {
 						addShopImg(shop, thumbnail);
 					} catch (Exception e) {
-
-						throw new ShopOperationException("addShopImg error" + e.getMessage());
+						LOG.error("addShopImg error" + e.getMessage());
+						throw new ShopOperationException("添加店铺图片失败");
 
 					}
 
 					// 更新店铺的图片地址
 					effectedNum = shopDao.updateShop(shop);
 					if (effectedNum <= 0) {
-						throw new ShopOperationException("更新图片地址失败");
+						LOG.error("更新图片地址失败");
+						throw new ShopOperationException("添加图片地址失败");
+					}
+					// 执行增加shopAuthMap操作
+					ShopAuthMap shopAuthMap = new ShopAuthMap();
+					shopAuthMap.setEmployee(shop.getOwner());
+					shopAuthMap.setShop(shop);
+					shopAuthMap.setTitle("店家");
+					shopAuthMap.setTitleFlag(0);
+					shopAuthMap.setCreateTime(new Date());
+					shopAuthMap.setLastEditTime(new Date());
+					shopAuthMap.setEnableStatus(1);
+					try {
+						effectedNum = shopAuthMapDao.insertShopAuthMap(shopAuthMap);
+						if (effectedNum <= 0) {
+							LOG.error("addShop:授权创建失败");
+							throw new ShopOperationException("授权创建失败");
+						} 
+					} catch (Exception e) {
+						LOG.error("insertShopAuthMap error: " + e.getMessage());
+						throw new ShopOperationException("insertShopAuthMap error: " + e.getMessage());
 					}
 				}
 			}
 		} catch (Exception e) {
-			throw new ShopOperationException("addShop error" + e.getMessage());
+			LOG.error("addShop error" + e.getMessage());
+			throw new ShopOperationException("创建店铺失败，请联系相关管理员");
 		}
 		// 返回状态值-CHECK(待审核)
 		return new ShopExecution(ShopStateEnum.CHECK, shop);

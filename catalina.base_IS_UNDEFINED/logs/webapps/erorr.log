@@ -1,12 +1,11 @@
-2019-10-23 11:42:51.054 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-10-23 11:43:14.455 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-10-23 11:43:46.636 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-10-23 11:44:25.075 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-10-23 11:45:51.153 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
-2019-10-23 12:34:38.944 [main] ERROR com.imooc.o2o.util.ShortNetAddressUtil - getValueByKey error:com.fasterxml.jackson.databind.JsonMappingException: No content to map due to end-of-input
- at [Source: ; line: 1, column: 0]
+2019-10-24 12:20:17.854 [http-nio-8080-exec-4] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - addShopImg error/ by zero
+2019-10-24 12:20:57.209 [http-nio-8080-exec-4] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - addShop error添加店铺图片失败
+2019-10-24 12:32:10.366 [http-nio-8080-exec-2] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - addShopImg error/ by zero
+2019-10-24 12:32:10.366 [http-nio-8080-exec-2] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - addShop error添加店铺图片失败
+2019-10-24 14:04:36.969 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:08:03.528 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:09:35.959 [http-nio-8080-exec-3] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:13:04.312 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:53:11.341 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:53:59.195 [http-nio-8080-exec-7] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常
+2019-10-24 14:55:13.003 [http-nio-8080-exec-1] ERROR com.imooc.o2o.web.handler.GlobalExceptionHandler - 系统出现异常

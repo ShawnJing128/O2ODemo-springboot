@@ -1,56 +1,41 @@
-2019-10-23 11:42:50.720 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 11:42:51.058 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 11:43:14.188 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 11:43:14.456 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 11:43:46.385 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 11:43:46.639 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 11:44:24.835 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 11:44:25.077 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 11:45:50.950 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 11:45:51.154 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 12:34:38.751 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - response string: 
-2019-10-23 12:34:38.947 [main] INFO  com.imooc.o2o.util.ShortNetAddressUtil - tinyurl: null
-2019-10-23 14:48:15.097 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 10924 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 14:48:15.106 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 14:48:19.403 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.952 seconds (JVM running for 5.535)
-2019-10-23 15:37:14.448 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11088 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 15:37:14.451 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 15:37:19.470 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.492 seconds (JVM running for 6.086)
-2019-10-23 15:56:16.130 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11200 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 15:56:16.135 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 15:56:22.990 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 7.257 seconds (JVM running for 7.926)
-2019-10-23 15:57:58.027 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11206 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 15:57:58.041 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 15:58:02.578 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.87 seconds (JVM running for 5.484)
-2019-10-23 16:02:03.228 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11242 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:02:03.232 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:02:08.032 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.297 seconds (JVM running for 5.88)
-2019-10-23 16:29:48.543 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11363 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:29:48.546 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:30:11.810 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11371 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:30:11.813 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:30:16.382 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.934 seconds (JVM running for 5.605)
-2019-10-23 16:41:49.742 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11447 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:41:49.745 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:41:54.419 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.242 seconds (JVM running for 5.88)
-2019-10-23 16:43:23.342 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11464 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:43:23.346 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:43:27.897 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.892 seconds (JVM running for 5.495)
-2019-10-23 16:44:56.189 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11474 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:44:56.193 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 16:45:00.923 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.213 seconds (JVM running for 5.835)
-2019-10-23 16:53:46.499 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11491 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 16:53:46.503 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 17:07:17.223 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11527 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 17:07:17.227 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 17:07:22.317 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.665 seconds (JVM running for 6.273)
-2019-10-23 17:23:09.702 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11614 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 17:23:09.707 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 17:23:14.695 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.354 seconds (JVM running for 6.026)
-2019-10-23 17:31:22.212 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11662 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 17:31:22.216 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 17:31:30.694 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 8.983 seconds (JVM running for 9.551)
-2019-10-23 17:46:56.761 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11723 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 17:46:56.769 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
-2019-10-23 17:51:03.307 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 11751 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
-2019-10-23 17:51:03.324 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:15:25.956 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13173 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:15:25.975 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:17:11.592 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13193 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:17:11.605 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:17:16.453 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.35 seconds (JVM running for 6.211)
+2019-10-24 12:18:00.027 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13197 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:18:00.037 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:18:06.780 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 7.426 seconds (JVM running for 8.945)
+2019-10-24 12:25:00.019 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13202 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:25:00.025 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:25:06.505 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 7.278 seconds (JVM running for 8.536)
+2019-10-24 12:29:50.878 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13211 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:29:50.883 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:29:55.728 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.858 seconds (JVM running for 7.06)
+2019-10-24 12:31:29.957 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13216 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 12:31:29.962 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 12:31:35.715 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 6.28 seconds (JVM running for 7.205)
+2019-10-24 13:05:53.416 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13339 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 13:05:53.450 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 13:05:58.317 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.498 seconds (JVM running for 6.316)
+2019-10-24 14:03:32.767 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13890 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:03:32.772 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:03:38.340 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 6.221 seconds (JVM running for 6.921)
+2019-10-24 14:04:10.167 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13892 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:04:10.171 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:04:15.329 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.608 seconds (JVM running for 6.282)
+2019-10-24 14:07:44.180 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13902 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:07:44.187 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:07:48.827 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 5.399 seconds (JVM running for 6.108)
+2019-10-24 14:12:32.439 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 13910 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:12:32.442 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:12:38.620 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 7.139 seconds (JVM running for 8.018)
+2019-10-24 14:51:22.143 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 14054 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:51:22.153 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:51:28.091 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 6.865 seconds (JVM running for 8.467)
+2019-10-24 14:53:42.686 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 14058 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:53:42.691 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:53:47.114 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 4.986 seconds (JVM running for 5.752)
+2019-10-24 14:54:14.936 [main] INFO  com.imooc.o2o.O2oDemoApplication - Starting O2oDemoApplication on ShawndeMacBook-Pro.local with PID 14060 (/Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo/target/classes started by shawn in /Users/shawn/Document/Develop/SpringBoot_Workspace/o2oDemo)
+2019-10-24 14:54:14.944 [main] INFO  com.imooc.o2o.O2oDemoApplication - No active profile set, falling back to default profiles: default
+2019-10-24 14:54:22.433 [main] INFO  com.imooc.o2o.O2oDemoApplication - Started O2oDemoApplication in 8.308 seconds (JVM running for 9.657)
